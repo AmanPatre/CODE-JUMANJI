@@ -1,0 +1,14 @@
+.footer {
+    width: 100vw;
+    height: 7vh;
+    position: absolute;
+    bottom: 0;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    word-spacing: 7px;
+  }
+  

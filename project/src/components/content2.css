@@ -1,0 +1,126 @@
+
+
+.main_cont_r {
+    max-width: 100vw;
+    min-height: 80vh;
+  }
+  .header_r {
+    display: flex;
+    flex-direction: column;
+  }
+  .header_r p {
+    text-align: center;
+    font-family: "ArcadeClassic", sans-serif;
+    font-size: 90px;
+    color: #c0d645;
+    text-shadow: 2px 2px 0px black,
+      /* Offset shadow to the bottom right */ 10px 10px 0px rgba(0, 0, 0, 0.9); /* Extra deep shadow for depth */;
+      -webkit-text-stroke: 0.5px;
+      -webkit-text-stroke-color: rgb(0, 0, 0);
+  }
+  .jumanji_r {
+    position: relative;
+    bottom: 30px;
+  }
+  .main_cont2_r {
+    width: 80vw;
+    height: 50vh;
+    margin: auto;
+    background-image: url("../assets/riddleplaceholder.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  
+    padding: 5px; /* Increase padding for better text spacing */
+  
+    font-family: "ArcadeClassic", sans-serif;
+    color: black; /* Adjust text color for better contrast */
+    font-size: 12px; /* Adjust font size */
+    line-height: 1.5; /* Improve readability */
+    
+  }
+  
+  .main_cont2_header_r p {
+    font-weight: 500;
+    text-align: center;
+    color: #ff6264;
+    font-size: 36px;
+  
+    line-height: 36.49px;
+    letter-spacing: 6%;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 1); /* Give text a subtle outline */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 40px;
+    word-spacing: 5px;
+    
+  }
+  
+  
+
+  .start_quest_r {
+    margin-top: 25px;
+    text-align: center;
+  }
+  .start_quest_r p{
+    color: #C0D645;
+    font-size: 25px;
+    word-spacing: 5px;
+  }
+  
+  .start_quest_r input {
+    width: 224px;
+    border: none;
+    height: 32px;
+    font-size: 30px;
+    background-color: #C0D645;
+    border-color: black;
+    box-shadow: 4px 4px 0px rgba(195, 255, 0, 0.5);
+    text-align: center;
+  
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+  }
+  
+  .start_quest_r button:active {
+    box-shadow: 2px 2px 0px rgb(0, 0, 0); /* Moves shadow slightly on click */
+    transform: translate(2px, 2px);
+  }
+
+
+  
+@media (max-width : 376px) {
+    .header_r p {
+      font-size: 60px;
+      text-shadow: 2px 2px 0px black, 3px 3px 0px rgba(0, 0, 0, 0.9);
+      
+    }
+    .header_r {
+      gap: 10px;
+    }
+ 
+  
+  .main_cont2_header_r p {
+    font-size: 27px;
+    -webkit-text-stroke: 0.4px;
+      -webkit-text-stroke-color: rgb(0, 0, 0);
+  
+  }
+  
+  }
+
+  @media (min-width : 412px) {
+
+    .main_cont2_header_r p {
+        position: relative;
+         bottom: 25px;
+
+    }
+
+
+  }

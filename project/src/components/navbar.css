@@ -1,0 +1,24 @@
+.nav {
+    max-width: 90vw;
+    margin: auto;
+    min-height: 4vh;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .club_logo img {
+    height: 45px;
+    width: 45px;
+  }
+  .social_icns {
+    height: 15px;
+    width: 15px;
+  }

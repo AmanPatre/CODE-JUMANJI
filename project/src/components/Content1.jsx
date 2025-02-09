@@ -1,6 +1,6 @@
+import "./content1.css"
 
-
-const Content = () => {
+const Content1 = () => {
   return (
     <div className="main_cont">
 
@@ -32,7 +32,7 @@ const Content = () => {
         </div>
         
         <div className="start_quest">
-                <button>START QUEST</button>
+               <a href="/riddle"><button>START QUEST</button></a> 
             </div>
 
       
@@ -40,4 +40,4 @@ const Content = () => {
   )
 }
 
-export default Content
+export default Content1

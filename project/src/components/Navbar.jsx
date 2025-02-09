@@ -3,6 +3,7 @@ import linkedIn from '../assets/linkedinlogo.svg';
 import github from "../assets/github logo.svg";
 import discord from "../assets/discord logo.svg";
 import insta from "../assets/instagram logo.svg";
+import "./navbar.css";
 
 const Navbar = () => {
   return (
